@@ -9,10 +9,12 @@
 Console.Write("Введите цифру дня недели: ");
 int dayNum = Convert.ToInt32(Console.ReadLine());
 
- if (dayNum == 6 || dayNum == 7) {
-  Console.WriteLine(" -> да");
-  }
-  else if (dayNum < 1 || dayNum > 7) {
+if (dayNum == 6 || dayNum == 7)
+{
+    Console.WriteLine(" -> да");
+}
+else if (dayNum < 1 || dayNum > 7)
+{
     Console.WriteLine("Это не день недели");
-  }
-  else Console.WriteLine(" -> нет");  
+}
+else Console.WriteLine(" -> нет");
