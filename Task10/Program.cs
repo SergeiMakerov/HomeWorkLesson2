@@ -10,4 +10,4 @@
 Console.Write("Введите трёхзначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 string stringNum = Convert.ToString(num);
-Console.WriteLine("вторая цифра этого числа -> "+stringNum[1]);
+Console.WriteLine("Вторая цифра этого числа -> "+stringNum[1]);
